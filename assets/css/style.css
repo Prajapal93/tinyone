@@ -1,0 +1,90 @@
+*{padding:0;
+margin:0;
+box-sizing:border-box;
+font-family: 'Roboto', sans-serif; }
+.container{width:1100px;
+margin:0 auto;}
+
+.headsection{background-color:#fcdb00;
+padding:60px 0 100px;}
+
+.row, row::after, row::before
+{display:table;
+width:100%;
+clear:both;}
+.row1{margin-bottom:60px;}
+[class^="col-"]{float:left;
+padding:0 15px;} 
+.col-6{width:calc(100% * 6 / 12);}
+.col-1{width:calc(100% * 1 / 12);}
+.col-3{width:calc(100% * 3 / 12);}
+.col-4{width:calc(100% * 4 / 12);}
+.col-8{width:calc(100% * 8 / 12);}
+.col-2{width:calc(100% * 2 / 12);}
+.col-5{width:calc(100% * 5 / 12);}
+.col-9{width:calc(100% * 9 / 12);}
+.col-10{width:calc(100% * 10 / 12);}
+.text-center{text-align:center;}
+.offset-2{margin-left:calc(100% * 2 / 12);}
+.inspiration > p{color:#555555;
+margin-bottom:40px;}
+.navbar li{display:inline-block;
+text-align:right;
+padding:0px 10px;}
+.navbar li a:link, li a:visited{text-decoration:none;
+color:#010101;
+font-size:22px;
+height:47px;
+line-height:47px;
+padding:10px 10px;
+border-radius:5px;}
+.navbar li a:hover, .navbar li a:focus, .navbar li a:active{background-color:aqua;}
+.pri-heading{margin-bottom:30px;
+color:#010101;
+font-family: 'Poppins', sans-serif;}
+.sec-heading{margin-bottom:20px;
+color:#313841;
+font-family: 'Poppins', sans-serif;}
+ul{list-style:none;}
+.brands li{display:inline-block;
+margin-right:40px;}
+
+.features{padding:120px 0 80px;}
+.mb-65{margin-bottom:65px;}
+.thumbinfo > p{color:#898989;
+font-size:16px;
+line-height:24px;}
+.thumbinfo > h2{color:#010101;
+font-size:22px;
+margin-bottom:15px;
+font-family: 'Poppins', sans-serif;}
+.thumbnail{margin-bottom:80px;}
+.contactsection{background-color:#010101;
+padding:100px 0 140px;}
+.contactsection .pri-heading{color:#fcdb00;
+margin-bottom:20px;
+font-size:32px;}
+.contactsection .sec-heading{color:#898989;
+margin-bottom:40px;
+font-size:20px;}
+.formtag{margin-bottom:80px;}
+.mb-135{margin-bottom:135px;}
+.email, .button{height:50px;
+border-radius:5px;}
+.button{background-color:yellow;
+padding:0 35px;
+width:125px;
+text-align:center;
+text-transform:uppercase;
+cursor:pointer;
+font-weight:bold;
+margin-left:20px;}
+.email{width:calc(100% - 155px);
+padding:0 25px;}
+.email::placeholder{color:#898989;
+font-size:16px;}
+.contactsection .brands li a{color:yellow;}
+.offset-1{margin-left:calc(100% * 1 / 12);}
+.footerlinks li a:link, .footerlinks li a:visited{color:#ffffff;
+text-decoration:none;
+text-transform:capitalize;}
